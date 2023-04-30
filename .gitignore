@@ -1,0 +1,5 @@
+.DS_Store
+*/.DS_Store
+
+# for ignoring virtual environment
+./project
