@@ -4,17 +4,16 @@ import cv2
 ## PARAMETERS
 image = "./img/people2.jpg"
 face_detection_model = "./S3B-dnn_face_detection/face_detection_yunet_2022mar.onnx" # download from https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet
-score_threshold = 0.9 # Filtering out faces of score < score_threshold.
-nms_threshold = 0.3 # Suppress bounding boxes of iou >= nms_threshold.
+score_threshold = 0.9 # Filtering out faces of score < score_threshold (used to eliminate unlikely faces)
+nms_threshold = 0.3 # Suppress bounding boxes of iou >= nms_threshold (used to eliminate same bboxes)
 top_k = 5000 # Keep top_k bounding boxes before NMS.
-save = False
 
-def visualize(input, faces, thickness=2):
+def visualize(input, faces, thickness=5):
     if faces is None:
         print("No face found")
         return
-    for _, face in enumerate(faces):
-        coords = face[:-1].astype(np.int32)
+    for face in faces:
+        coords = face[:-1].astype(np.int32) # necessary to convert coordinates to integers before plotting
 
         # draw rectangles of face face
         cv2.rectangle(input, (coords[0], coords[1]), (coords[0] + coords[2], coords[1]+coords[3]), (0, 255, 0), thickness)
