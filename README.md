@@ -22,7 +22,12 @@ OpenCV documentation: [https://docs.opencv.org/4.7.0/](https://docs.opencv.org/4
 
 ### S2: Feature Extraction
 
-- ?
+- OpenCV Feature Detectors: [https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html](https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html)
+- Harris Corner Detection: [https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#gac1fc3598018010880e370e2f709b4345](https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#gac1fc3598018010880e370e2f709b4345)
+- Shi-Tomasi Corner Detection: [https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#ga1d6bb77486c8f92d79c8793ad995d541](https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html#ga1d6bb77486c8f92d79c8793ad995d541)
+- Canny Edge Detection: [https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html)
+- Simple Blob Detector: [https://docs.opencv.org/4.x/d0/d7a/classcv_1_1SimpleBlobDetector.html](https://docs.opencv.org/4.x/d0/d7a/classcv_1_1SimpleBlobDetector.html)
+
 
 ### S3A: Haar-cascade Object Detection
 
