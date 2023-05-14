@@ -7,7 +7,7 @@ face_cascade = cv2.CascadeClassifier()
 face_cascade.load(cv2.samples.findFile(face_cascade_name))
 
 # load and process image
-frame = cv2.imread('./img/people1.jpg')
+frame = cv2.imread('../img/object_detection/people1.jpg')
 frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 frame_gray = cv2.equalizeHist(frame_gray)
 # NOTE: we apply the grayscale and histogram equalisation on a separate frame, so we can still display the original frame later
