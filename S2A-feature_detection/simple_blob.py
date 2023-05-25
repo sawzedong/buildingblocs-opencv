@@ -8,23 +8,23 @@ params = cv2.SimpleBlobDetector_Params()
 # feel free to change the following parameters at your own discretion!
 
 # threshold parameters
-params.minThreshold = 10;
-params.maxThreshold = 200;
+params.minThreshold = 10
+params.maxThreshold = 200
 
 # area parameters
-params.filterByArea = True;
-params.minArea = 1500;
+params.filterByArea = True
+params.minArea = 1500
 
 # circularity parameters
-params.filterByCircularity = True;
+params.filterByCircularity = True
 params.minCircularity = 0.1
 
 # convexity parameters
-params.filterByConvexity = True;
-params.minConvexity = 0.87;
+params.filterByConvexity = True
+params.minConvexity = 0.87
 
 # inertia parameters
-params.filterByInertia = True;
+params.filterByInertia = True
 params.minInertiaRatio = 0.01
 
 # detect & mark blobs
