@@ -2,7 +2,7 @@ import cv2
 import time 
 
 # Opening up image files
-img = cv2.imread("S1-image_processing\orchid.png")
+img = cv2.imread("../img/image_processing/orchid.png")
 cv2.imshow("img", img)
 cv2.waitKey()
 cv2.destroyWindow("img")

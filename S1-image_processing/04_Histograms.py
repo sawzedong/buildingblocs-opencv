@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 
-img = cv2.imread("S1-image_processing\orchid.png")
+img = cv2.imread("../img/image_processing/orchid.png")
 
 ##########################################
 # Plotting Histograms
@@ -14,6 +14,7 @@ for i, col in enumerate(colour):
     plt.xlim([0, 256])
 
 plt.show()
+# reminder: close figure 1 (the graph) to display the next few parts
 
 ##########################################
 # Image Recolouring

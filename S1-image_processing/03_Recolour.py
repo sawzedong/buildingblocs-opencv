@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Opening up image files
-img = cv2.imread("S1-image_processing\orchid.png")
+img = cv2.imread("../img/image_processing/orchid.png")
 
 ##########################################
 # Image Recolouring

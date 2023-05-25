@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("S1-image_processing\orchid.png")
+img = cv2.imread("../img/image_processing/orchid.png")
 
 # Drawing rectangle
 cv2.rectangle(img,(384,0),(510,128),(0,255,0),3)

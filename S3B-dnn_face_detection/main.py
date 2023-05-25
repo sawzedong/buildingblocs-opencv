@@ -2,8 +2,8 @@ import numpy as np
 import cv2 
 
 ## PARAMETERS
-image = "./img/object_detection/people2.jpg"
-face_detection_model = "./S3B-dnn_face_detection/face_detection_yunet_2022mar.onnx" # download from https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet
+image = "../img/object_detection/people2.jpg"
+face_detection_model = "../S3B-dnn_face_detection/face_detection_yunet_2022mar.onnx" # download from https://github.com/opencv/opencv_zoo/tree/master/models/face_detection_yunet
 score_threshold = 0.9 # Filtering out faces of score < score_threshold (used to eliminate unlikely faces)
 nms_threshold = 0.3 # Suppress bounding boxes of iou >= nms_threshold (used to eliminate same bboxes)
 top_k = 5000 # Keep top_k bounding boxes before NMS.
