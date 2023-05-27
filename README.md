@@ -18,7 +18,9 @@ OpenCV documentation: [https://docs.opencv.org/4.7.0/](https://docs.opencv.org/4
 
 ### S1: Image Processing
 
-- ?
+- OpenCV Documentation: [https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html]
+- All the ColourConversionCodes: [https://docs.opencv.org/3.4/d8/d01/group__imgproc__color__conversions.html]
+- Image Blurring and Enhancement: [https://www.geeksforgeeks.org/image-enhancement-techniques-using-opencv-python/]
 
 ### S2A: Feature Extraction
 
@@ -46,7 +48,7 @@ OpenCV documentation: [https://docs.opencv.org/4.7.0/](https://docs.opencv.org/4
 
 ### S4: OpenCV GUI and Video
 
-- ?
+- OpenCV Tutorial: [https://docs.opencv.org/3.4/dc/d4d/tutorial_py_table_of_contents_gui.html]
 
 ## Common issues
 
