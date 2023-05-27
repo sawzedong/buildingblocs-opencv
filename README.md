@@ -18,9 +18,9 @@ OpenCV documentation: [https://docs.opencv.org/4.7.0/](https://docs.opencv.org/4
 
 ### S1: Image Processing
 
-- OpenCV Documentation: [https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html]
-- All the ColourConversionCodes: [https://docs.opencv.org/3.4/d8/d01/group__imgproc__color__conversions.html]
-- Image Blurring and Enhancement: [https://www.geeksforgeeks.org/image-enhancement-techniques-using-opencv-python/]
+- OpenCV Documentation: [https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html](https://docs.opencv.org/4.x/d2/d96/tutorial_py_table_of_contents_imgproc.html)
+- All the ColourConversionCodes: [https://docs.opencv.org/3.4/d8/d01/group**imgproc**color\_\_conversions.html](https://docs.opencv.org/3.4/d8/d01/group__imgproc__color__conversions.html)
+- Image Blurring and Enhancement: [https://www.geeksforgeeks.org/image-enhancement-techniques-using-opencv-python/](https://docs.opencv.org/3.4/d8/d01/group__imgproc__color__conversions.html)
 
 ### S2A: Feature Extraction
 
@@ -48,7 +48,7 @@ OpenCV documentation: [https://docs.opencv.org/4.7.0/](https://docs.opencv.org/4
 
 ### S4: OpenCV GUI and Video
 
-- OpenCV Tutorial: [https://docs.opencv.org/3.4/dc/d4d/tutorial_py_table_of_contents_gui.html]
+- OpenCV Tutorial: [https://docs.opencv.org/3.4/dc/d4d/tutorial_py_table_of_contents_gui.html](https://docs.opencv.org/3.4/dc/d4d/tutorial_py_table_of_contents_gui.html)
 
 ## Common issues
 
@@ -64,4 +64,5 @@ Issue: `...Can't find required data file...` or `...Can't read ONNX file...`, et
 
 ### 2. Other issues?
 
-Try using the Google Colab here instead: ...?
+Please ask our friendly Tech Facils during the event, or you can look for help online / reach out to your group facils.  
+You can also try using the Google Colab here instead: [https://bit.ly/bbcs23-opencv-colab](https://bit.ly/bbcs23-opencv-colab)
