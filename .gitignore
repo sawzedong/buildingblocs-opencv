@@ -2,4 +2,7 @@
 */.DS_Store
 
 # for ignoring virtual environment
-./project
+project
+
+# do not upload task solutions here
+task_solutions
